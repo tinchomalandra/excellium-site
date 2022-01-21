@@ -1,0 +1,52 @@
+/* FONTS */
+/* font-family: 'Fannabella', sans-serif; */
+/* font-family: 'NewsSector Amplitude', sans-serif;  */
+
+body{
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+
+}
+
+.banner-image{
+    background-image: url('../public/img/fondo.jpg');
+    background-size: cover;
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+.marca{
+    font-family: 'NewsSector Amplitude', sans-serif;
+    font-size: 2rem;
+}
+
+.texto-item{
+    font-family: 'NewsSector Amplitude', sans-serif;
+}
+
+/* MAIN */
+.contenedor-main{
+    margin-top: 10rem;
+    margin-left: 3rem;
+
+}
+
+.contenedor-2{
+    width: 500px;
+}
+
+.contenedor-2 h3{
+    color: white;
+    font-weight: 100;
+}
+
+.encabezado{
+    font-family: 'NewsSector Amplitude', sans-serif;
+    color: white;
+}
+
+.boton-main{
+    font-family: 'NewsSector Amplitude', sans-serif;
+}

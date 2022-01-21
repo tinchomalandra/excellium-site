@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- FONTS -->
+    <link href="http://fonts.cdnfonts.com/css/fannabella" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/newssector-amplitude" rel="stylesheet">
+
+    <title></title>
+</head>
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-xl navbar-dark mx-4 my-2">
+            <div class="container-fluid">
+              <a class="navbar-brand marca" href="#">Excellium</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse show" id="navbarBasic">
+                <ul class="navbar-nav ms-auto mb-2 mb-xl-0">
+                  <li class="nav-item">
+                    <a class="nav-link active texto-item" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link texto-item href="#">Carreras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link texto-item href="#">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link texto-item href="#">Contacto</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- BANNER IMAGEN -->
+    <div class="banner-image w-100 vh-100 d-flex">
+        <div class="contenedor-main">
+            <h1 class="encabezado">
+                Hablamos el idioma del Siglo XXI.
+            </h1>
+            <div class="contenedor-2">
+                <h3>
+                    Somos Excellium. Un equipo de apasionados que se mueve a la velocidad de los cambios.
+                </h3>
+                <button type="button" class="btn btn-outline-light mt-3 boton-main">¡Sumate a nuestro equipo!</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- MAIN -->
+    <main>
+        <div class="container my-5 d-grid gap-5">
+            <div class="row p-5">
+                <div class="col-md border">
+                    <img class="img-fluid my-2" src="public/img/card1.jpg" alt="">
+                    <p class="texto-item my-3">
+                        Excellium es una empresa 100% argentina, dedicada al desarrollo, implementacion, soporte y auditoria de sistemas Blockchain para instituciones publicas y emprendimientos privados de cualquier indole.
+                    </p>
+                </div>
+                <div class="col-md border">
+                    <img class="img-fluid my-2" src="public/img/card2.jpg" alt="">
+                    <p class="texto-item my-3">
+                        Trabajamos incansablemente por hacer del flujo de información una herramienta indispensable para la correcta y transparente administracion de una institucion, sus recursos y sus bienes más preciados.
+                    </p>
+                </div>
+            </div>
+            <div class="row p-5">
+                <div class="col-md border">
+                    <img class="img-fluid my-2" src="public/img/card3.jpg" alt="">
+                    <p class="texto-item my-3">
+                        Sabemos que la informacion es el recurso más valioso de esta era. Y por eso nos dedicamos Full-Time a que ella contribuya a un futuro más prospero para la sociedad y su conjunto.
+                    </p>
+                </div>
+                <div class="col-md border">
+                    <img class="img-fluid my-2" src="public/img/card4.jpg" alt="">
+                    <p class="texto-item my-3">
+                        Entendemos con claridad que ningun recurso es eterno. Por eso asumimos el compromiso de contribuir a una correcta administracion de todos los recursos que maneja una organizacion. Principalmente los más importantes: la energia y el tiempo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item texto-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
+                <li class="nav-item texto-item"><a href="#" class="nav-link px-2 text-muted">Carreras</a></li>
+                <li class="nav-item texto-item"><a href="#" class="nav-link px-2 text-muted">Noticias</a></li>
+                <li class="nav-item texto-item"><a href="#" class="nav-link px-2 text-muted">Contacto</a></li>
+              </ul>
+              <p class="text-center text-muted texto-item">(C) 2022 - Excellium S.C. - Todos los derechos reservados</p>
+            </footer>
+          </div>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        var nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+            nav.classList.add('bg-dark', 'shadow');
+        } else {
+            nav.classList.remove('bg-dark', 'shadow');
+        }
+    });
+    </script>
+</body>
+</html>
